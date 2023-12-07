@@ -2,7 +2,7 @@ import React from "react";
 import { TbWorldWww } from "react-icons/tb";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
+import autoguiImg from "@/public/autogui.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
@@ -62,11 +62,11 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Autonomous Vehicle GUI",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "A python based GUI build to communicate with and control autonomous vehicle using communication port of devices.",
+    tags: ["Python", "PyQt5", "Folium", "OpenCV", "Serial"],
+    imageUrl: autoguiImg,
   },
   {
     title: "rmtDev",
