@@ -1,5 +1,5 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
+import { TbWorldWww } from "react-icons/tb";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
@@ -39,7 +39,7 @@ export const experiencesData = [
     location: "Dhaka",
     description:
       "I enrolled in a bootcamp about full stack web development which focused on beginner friendly concepts which lasted for 3 months",
-    icon: React.createElement(LuGraduationCap),
+    icon: React.createElement(TbWorldWww),
     date: "2019",
   },
   {
@@ -47,7 +47,7 @@ export const experiencesData = [
     location: "Dhaka",
     description:
       "I pursued my Bachelor's in Computer Science and Engineering Degree and learned about other languages and Frameworks such Flutter and Nextjs ",
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(LuGraduationCap),
     date: "2020 - 2023",
   },
   {
