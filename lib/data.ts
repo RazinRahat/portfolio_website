@@ -43,7 +43,7 @@ export const experiencesData = [
     date: "2019",
   },
   {
-    title: "Bachelor in Computer Science",
+    title: "Bachelor in Computer Science and Engineering",
     location: "Dhaka",
     description:
       "I pursued my Bachelor's in Computer Science and Engineering Degree and learned about other languages and Frameworks such Flutter and Nextjs ",
