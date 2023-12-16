@@ -104,6 +104,8 @@ export const skillsData = [
   "Python",
   "Django",
   "PyQT",
+  "Hyperledger Aries",
+  "Hyperledger Fabric",
   "Solidity",
   "Ethereum",
   "Dart",
