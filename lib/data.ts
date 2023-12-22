@@ -69,18 +69,18 @@ export const projectsData = [
     imageUrl: autoguiImg,
   },
   {
-    title: "Companion-AI",
-    description:
-      "An AI powered chatting system where you can create a companion and communicate with it about topics it knows about.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Stripe", "OpenAI"],
-    imageUrl: companionAiImg,
-  },
-  {
     title: "Word Analytics",
     description:
       "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
     imageUrl: wordanalyticsImg,
+  },
+  {
+    title: "Companion-AI",
+    description:
+      "An AI powered chatting system where you can create a companion and communicate with it about topics it knows",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Stripe", "OpenAI"],
+    imageUrl: companionAiImg,
   },
 ] as const;
 
