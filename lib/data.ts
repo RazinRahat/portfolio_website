@@ -3,7 +3,7 @@ import { TbWorldWww } from "react-icons/tb";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import autoguiImg from "@/public/autogui.png";
-import rmtdevImg from "@/public/rmtdev.png";
+import companionAiImg from "@/public/companion-ai.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
@@ -69,11 +69,11 @@ export const projectsData = [
     imageUrl: autoguiImg,
   },
   {
-    title: "rmtDev",
+    title: "Companion-AI",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "An AI powered chatting system where you can create a companion and communicate with it about topics it knows about.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Stripe", "OpenAI"],
+    imageUrl: companionAiImg,
   },
   {
     title: "Word Analytics",
