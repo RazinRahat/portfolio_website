@@ -33,8 +33,8 @@ export default function Intro() {
             <Image
               src="/portfolio_image.jpg"
               alt="Razin portrait"
-              width="192"
-              height="192"
+              width="384"
+              height="384"
               quality="95"
               priority={true}
               className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
