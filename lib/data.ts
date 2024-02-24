@@ -4,7 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import autoguiImg from "@/public/autogui.png";
 import companionAiImg from "@/public/companion-ai.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import weatherAppImg from "@/public/weather-app.png";
 
 export const links = [
   {
@@ -54,7 +54,7 @@ export const experiencesData = [
     title: "Freelance Full-Stack Developer",
     location: "Dhaka",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I'm now looking for gigs as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
     date: "2023 - present",
   },
@@ -69,11 +69,11 @@ export const projectsData = [
     imageUrl: autoguiImg,
   },
   {
-    title: "Word Analytics",
+    title: "Weather App",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A public web app for quick weather updates which has search facility. It includes multiple widgets such as Humidity, Pressure, Temperature etc.",
+    tags: ["React", "Next.js", "React-leaflet", "Tailwind", "Lodash"],
+    imageUrl: weatherAppImg,
   },
   {
     title: "Companion-AI",
