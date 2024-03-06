@@ -81,7 +81,7 @@ export const projectsData = [
     description:
       "A customer relationship management project using Django framework which utilizes mysql as backend",
     tags: ["Django", "Mysql", "Bootstrap"],
-    imageUrl: weatherAppImg,
+    imageUrl: djangoCRM,
   },
   {
     title: "Companion-AI",
