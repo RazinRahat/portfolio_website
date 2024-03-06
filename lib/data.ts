@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import autoguiImg from "@/public/autogui.png";
 import companionAiImg from "@/public/companion-ai.png";
 import weatherAppImg from "@/public/weather-app.png";
+import djangoCRM from "@/public/django-crm.png"
 
 export const links = [
   {
@@ -73,6 +74,13 @@ export const projectsData = [
     description:
       "A public web app for quick weather updates which has search facility. It includes multiple widgets such as Humidity, Pressure, Temperature etc.",
     tags: ["React", "Next.js", "React-leaflet", "Tailwind", "Lodash"],
+    imageUrl: weatherAppImg,
+  },
+  {
+    title: "Django CRM",
+    description:
+      "A customer relationship management project using Django framework which utilizes mysql as backend",
+    tags: ["Django", "Mysql", "Bootstrap"],
     imageUrl: weatherAppImg,
   },
   {
