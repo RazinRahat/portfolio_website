@@ -1,0 +1,1 @@
+Three.js 0.187.0, MIT License. Addon import paths adjusted for self-contained local delivery. Original library: https://github.com/mrdoob/three.js

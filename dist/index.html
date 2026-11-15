@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Razin Rayan Rahat — software engineer and Master of IT (AI) student at Macquarie University. Selected software projects, machine learning experiments and research.">
+  <meta name="theme-color" content="#f6f5ef">
+  <title>Razin Rayan Rahat — Software & AI/ML Engineering</title>
+  <link rel="canonical" href="https://razin-portfolio.vercel.app/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Razin Rayan Rahat — Software & AI/ML Engineering">
+  <meta property="og:description" content="Local RAG, computer vision, NLP and reliable software. Master of IT (AI), Macquarie University; first-author IEEE research.">
+  <meta property="og:url" content="https://razin-portfolio.vercel.app/">
+  <meta property="og:image" content="https://razin-portfolio.vercel.app/assets/social-card.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Razin Rayan Rahat — Software engineering and AI/ML. Selected projects and publications.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Razin Rayan Rahat — Software & AI/ML Engineering">
+  <meta name="twitter:description" content="Software projects, machine learning experiments and research by Razin Rayan Rahat.">
+  <meta name="twitter:image" content="https://razin-portfolio.vercel.app/assets/social-card.png">
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./profile.js" defer></script>
+  <script src="./data.js" defer></script>
+  <script src="./app.js" defer></script>
+  <script src="./scene.js" defer></script>
+  <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Razin Rayan Rahat", "url": "https://razin-portfolio.vercel.app/", "sameAs": ["https://github.com/RazinRahat", "https://www.linkedin.com/in/razin-rayan-rahat/", "https://orcid.org/0009-0006-7419-759X"], "knowsAbout": ["Software engineering", "Machine learning", "Retrieval-augmented generation", "Computer vision"], "affiliation": {"@type": "CollegeOrUniversity", "name": "Macquarie University"}}</script>
+</head>
+<body>
+  <a class="skip-link" href="#work">Skip to selected work</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="Razin Rahat, home"><span class="monogram">rr<span>·</span></span><span>Razin Rahat<span class="brand-sub">AI / ML & software</span></span></a>
+      <nav class="desktop-nav" aria-label="Main navigation"><a href="#work">Work</a><a href="#research">Research</a><a href="#about">About</a><a href="#education">Education</a><a href="#experience">Experience</a></nav>
+      <a class="header-contact" href="mailto:rrahat1999@gmail.com">Let’s talk <span aria-hidden="true"><svg class="inline-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></span></a>
+      <details class="mobile-nav"><summary aria-label="Open navigation">Menu <span aria-hidden="true">+</span></summary><nav aria-label="Mobile navigation"><a href="#work">Work</a><a href="#research">Research</a><a href="#about">About</a><a href="#education">Education</a><a href="#experience">Experience</a><a data-resume-link href="./CV.pdf" download="Razin-Rahat-Resume.pdf" type="application/pdf">Download résumé <svg class="inline-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M12 4v16m-6-6 6 6 6-6"/></svg></a><a href="#contact">Contact</a></nav></details>
+    </div>
+  </header>
+  <main>
+    <section class="hero container" id="home" aria-labelledby="hero-heading">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> SOFTWARE ENGINEERING <span class="slash">/</span> AI & ML</p>
+        <h1 id="hero-heading">Hi, I’m Razin.</h1>
+        <p class="hero-description">I’m a software engineer and Master of IT (AI) student at Macquarie University. Here’s a selection of my software projects, machine learning experiments and research.</p>
+        <p class="hero-education"><span class="hero-university">Macquarie University</span>Master of Information Technology · Artificial Intelligence</p>
+        <div class="hero-actions"><a class="button primary" href="#work">Explore selected work <span aria-hidden="true"><svg class="inline-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="m6 6 12 12M6 18h12V6"/></svg></span></a><a class="button secondary" data-resume-link href="./CV.pdf" download="Razin-Rahat-Resume.pdf" type="application/pdf">Download résumé <span aria-hidden="true"><svg class="inline-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M12 4v16m-6-6 6 6 6-6"/></svg></span></a><a class="text-link" href="https://github.com/RazinRahat" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true"><svg class="inline-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></span></a></div>
+        <a class="hero-about-link" href="#about">About me <span aria-hidden="true">↓</span></a>
+      </div>
+      <div class="hero-map">
+        <div class="scene-meta"><span class="eyebrow">A MAP OF MY WORK</span><span class="mono">06 PROJECTS</span></div>
+        <div class="scene-frame" id="scene-frame">
+          <canvas id="project-scene" aria-hidden="true"></canvas>
+          <div id="map-nodes">
+            <button class="map-node" data-map-project="rag" data-map-category="engineering" aria-label="Select Local RAG Research Assistant" title="Local RAG Research Assistant"><span class="node-dot"></span><span>01 / LOCAL RAG</span></button>
+            <button class="map-node" data-map-project="gesture" data-map-category="ml" aria-label="Select Real-Time Gesture Classification" title="Real-Time Gesture Classification"><span class="node-dot"></span><span>02 / VISION</span></button>
+            <button class="map-node" data-map-project="finance" data-map-category="engineering" aria-label="Select Personal Finance CLI" title="Personal Finance CLI"><span class="node-dot"></span><span>03 / FINANCE</span></button>
+            <button class="map-node" data-map-project="qqp" data-map-category="ml" aria-label="Select Duplicate Question Detection" title="Duplicate Question Detection"><span class="node-dot"></span><span>04 / NLP</span></button>
+            <button class="map-node" data-map-project="three" data-map-category="research" aria-label="Select Single-image 3D reconstruction" title="Single-image 3D reconstruction"><span class="node-dot"></span><span>05 / 3D</span></button>
+            <button class="map-node" data-map-project="ssi" data-map-category="research" aria-label="Select Encrypted peer-to-peer chat with SSI" title="Encrypted peer-to-peer chat with SSI"><span class="node-dot"></span><span>06 / SSI</span></button>
+          </div>
+        </div>
+        <div class="scene-controls"><label for="map-rotation">Rotate the map</label><input id="map-rotation" type="range" min="-180" max="180" value="0" aria-label="Rotate 3D project map"><button id="reset-map" class="icon-button" aria-label="Reset 3D map">↺</button></div>
+        <ul class="map-legend" aria-label="Project categories"><li><span data-category-dot="engineering" aria-hidden="true"></span>Engineering</li><li><span data-category-dot="ml" aria-hidden="true"></span>ML</li><li><span data-category-dot="research" aria-hidden="true"></span>Research</li></ul>
+        <div class="map-selection"><div class="map-selection-copy"><p class="map-selection-meta"><span class="mono" id="map-kind">ENGINEERING / LOCAL AI</span><span class="mono" id="map-position">01 / 06</span></p><h2 id="map-title">Local RAG Research Assistant</h2><p id="map-summary">Inspectable local RAG, from PDF ingestion to a frozen retrieval benchmark.</p></div><button id="map-open" class="map-open-button">Read case study <svg class="inline-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></button></div>
+        <p class="map-note">Drag or use the slider to rotate. Each node selects the matching project below.</p>
+      </div>
+    </section>
+    <div class="principles-strip"><div class="container"><span>Software engineering</span><span>Machine learning</span><span>Research & evaluation</span></div></div>
+
+    <section class="work-section container" id="work" aria-labelledby="work-heading">
+      <div class="section-heading"><div><p class="eyebrow">01 / SELECTED WORK</p><h2 id="work-heading">Projects I’ve worked on.</h2></div><p>Software projects, machine learning experiments and published research.<br>Pick a project to see what I built and how it performed.</p></div>
+      <div class="work-layout">
+        <aside class="project-sidebar" aria-label="Choose a project">
+          <div class="filter-group" role="group" aria-label="Filter projects"><button data-filter="all" aria-pressed="true">All</button><button data-filter="engineering" aria-pressed="false">Engineering</button><button data-filter="ml" aria-pressed="false">ML</button><button data-filter="research" aria-pressed="false">Research</button></div>
+          <div class="project-index" id="project-index"><button class="project-pick active" data-project="rag" aria-pressed="true"><span class="project-number">01</span><span><span class="project-type">ENGINEERING CASE STUDY</span><strong>Local RAG Research Assistant</strong><span class="project-caption">PDF search and cited answers.</span><span class="project-tags">Python · FastAPI · React</span></span><span class="pick-arrow" aria-hidden="true"><svg class="inline-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></span></button><button class="project-pick " data-project="gesture" aria-pressed="false"><span class="project-number">02</span><span><span class="project-type">COMPUTER VISION CASE STUDY</span><strong>Real-Time Gesture Classification</strong><span class="project-caption">Model comparison and webcam inference.</span><span class="project-tags">PyTorch · MobileNetV2 · OpenCV</span></span><span class="pick-arrow" aria-hidden="true"><svg class="inline-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></span></button><button class="project-pick " data-project="finance" aria-pressed="false"><span class="project-number">03</span><span><span class="project-type">SOFTWARE ENGINEERING CASE STUDY</span><strong>Personal Finance CLI</strong><span class="project-caption">CSV imports and monthly reports.</span><span class="project-tags">Python · Click · SQLite · Pytest</span></span><span class="pick-arrow" aria-hidden="true"><svg class="inline-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></span></button><button class="project-pick " data-project="qqp" aria-pressed="false"><span class="project-number">04</span><span><span class="project-type">NLP EVALUATION CASE STUDY</span><strong>Duplicate Question Detection</strong><span class="project-caption">Comparing lexical and neural models.</span><span class="project-tags">DistilBERT · Siamese BiLSTM · scikit-learn</span></span><span class="pick-arrow" aria-hidden="true"><svg class="inline-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></span></button><button class="project-pick " data-project="three" aria-pressed="false"><span class="project-number">05</span><span><span class="project-type">GENERATIVE AI EVALUATION</span><strong>Single-image 3D reconstruction</strong><span class="project-caption">Evaluating five TripoSR outputs.</span><span class="project-tags">TripoSR · PyTorch · Blender</span></span><span class="pick-arrow" aria-hidden="true"><svg class="inline-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></span></button><button class="project-pick " data-project="ssi" aria-pressed="false"><span class="project-number">06</span><span><span class="project-type">FIRST-AUTHOR RESEARCH</span><strong>Peer-to-peer chat with SSI</strong><span class="project-caption">Decentralised identity and messaging.</span><span class="project-tags">SSI · DIDComm · IEEE ICCIT</span></span><span class="pick-arrow" aria-hidden="true"><svg class="inline-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></span></button></div>
+          <p class="sidebar-note"><span aria-hidden="true">↳</span> Select a project. Inspect the details.<br>Every result has a context.</p>
+        </aside>
+        <article class="case-study" aria-labelledby="case-title">
+          <div class="case-header"><div><p class="eyebrow" id="case-kind">ENGINEERING CASE STUDY</p><h3 id="case-title" aria-live="polite">Local RAG Research Assistant</h3></div><button id="copy-case-link" class="icon-button" aria-label="Copy link to this case study" title="Copy case study link"><svg class="inline-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></button></div>
+          <div class="case-tabs" role="tablist" aria-label="Case study views"><button id="tab-overview" role="tab" aria-selected="true" aria-controls="case-panel" tabindex="0" data-tab="overview">Overview</button><button id="tab-explore" role="tab" aria-selected="false" aria-controls="case-panel" tabindex="-1" data-tab="explore">Explore the work <span aria-hidden="true"><svg class="inline-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></span></button><button id="tab-evidence" role="tab" aria-selected="false" aria-controls="case-panel" tabindex="-1" data-tab="evidence">Evidence & limits</button></div>
+          <div id="case-panel" role="tabpanel" aria-labelledby="tab-overview" tabindex="0"></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="research-section" id="research" aria-labelledby="research-heading"><div class="container research-layout">
+      <div><p class="eyebrow">02 / RESEARCH</p><h2 id="research-heading">Research & publications.</h2><p class="research-intro">My research began with decentralised identity and secure communication. My current interests include inspectable AI systems, retrieval evaluation and generative vision. I bring that curiosity to both research and software engineering.</p></div>
+      <div class="publication-list"><article class="publication" aria-labelledby="pub-ssi"><div class="publication-meta"><span class="badge">FIRST AUTHOR</span><span class="mono">IEEE ICCIT 2024</span></div><h3 id="pub-ssi">An End-to-End Encrypted Peer-to-Peer Chat System with Self-Sovereign Identity</h3><p>Undergraduate thesis research on decentralised identity, DIDComm messaging and direct mobile communication.</p><div class="publication-links"><a href="https://doi.org/10.1109/iccit64611.2024.11022566" target="_blank" rel="noopener noreferrer">Publication DOI <svg class="inline-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></a><button data-copy-citation="ssi">Copy citation</button><a href="./assets/citations/ssi.bib" download="ssi.bib">Download BibTeX <svg class="inline-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M12 4v16m-6-6 6 6 6-6"/></svg></a><button data-open-project="ssi">Explore my contribution <svg class="inline-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></button></div><details class="citation-details"><summary>Read citation &amp; BibTeX</summary><p class="citation-text" id="citation-ssi">Rahat, R. R., Ahmed, S., Talukder, A. A., Islam, I., Chowdhury, M., Ali, M. Y., &amp; Ferdous, M. S. (2024). An End-to-End Encrypted Peer-to-Peer Chat System with Self-Sovereign Identity. 2024 27th International Conference on Computer and Information Technology (ICCIT) (pp. 3486–3492). IEEE. https://doi.org/10.1109/iccit64611.2024.11022566</p><pre>@inproceedings{rahat2024ssi,
+  author = {Rahat, Razin Rayan and Ahmed, Shahriar and Talukder, Abrar Awsaf and Islam, Ilmy and Chowdhury, Mahpara and Ali, Md Yeasin and Ferdous, Md Sadek},
+  title = {{An End-to-End Encrypted Peer-to-Peer Chat System with Self-Sovereign Identity}},
+  booktitle = {2024 27th International Conference on Computer and Information Technology (ICCIT)},
+  year = {2024},
+  pages = {3486--3492},
+  publisher = {IEEE},
+  doi = {10.1109/iccit64611.2024.11022566}
+}
+</pre></details></article><article class="publication" aria-labelledby="pub-biomedical"><div class="publication-meta"><span class="badge">CO-AUTHOR</span><span class="mono">IEEE BECITHCON 2025</span></div><h3 id="pub-biomedical">A Unified Computational Framework for Biomedical Sensing, AI, and Assistive Technologies</h3><p>Co-authored conference publication on biomedical sensing, AI and assistive technologies.</p><div class="publication-links"><a href="https://doi.org/10.1109/becithcon69222.2025.11504276" target="_blank" rel="noopener noreferrer">Publication DOI <svg class="inline-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></a><button data-copy-citation="biomedical">Copy citation</button><a href="./assets/citations/biomedical.bib" download="biomedical.bib">Download BibTeX <svg class="inline-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M12 4v16m-6-6 6 6 6-6"/></svg></a></div><details class="citation-details"><summary>Read citation &amp; BibTeX</summary><p class="citation-text" id="citation-biomedical">Shitab, T. A., Emon, M. E. H., Mim, A. A., Oni, A. I., Rahat, R. R., &amp; Auishe, P. F. (2025). A Unified Computational Framework for Biomedical Sensing, AI, and Assistive Technologies. 2025 IEEE International Conference on Biomedical Engineering, Computer and Information Technology for Health (BECITHCON) (pp. 693–698). IEEE. https://doi.org/10.1109/becithcon69222.2025.11504276</p><pre>@inproceedings{shitab2025biomedical,
+  author = {Shitab, Tashdid Ahmed and Emon, Md. Emam Hossain and Mim, Anjuman Ara and Oni, Anika Ibnat and Rahat, Razin Rayan and Auishe, Prima Fariya},
+  title = {{A Unified Computational Framework for Biomedical Sensing, AI, and Assistive Technologies}},
+  booktitle = {2025 IEEE International Conference on Biomedical Engineering, Computer and Information Technology for Health (BECITHCON)},
+  year = {2025},
+  pages = {693--698},
+  publisher = {IEEE},
+  doi = {10.1109/becithcon69222.2025.11504276}
+}
+</pre></details></article></div>
+    </div></section>
+
+    <section class="about-section container" id="about" aria-labelledby="about-heading">
+      <div class="section-heading"><div><p class="eyebrow">03 / ABOUT</p><h2 id="about-heading">A little about me.</h2></div></div>
+      <div class="about-layout">
+        <p class="about-lead">I like learning by making something work.</p>
+        <div class="about-body">
+          <p>My interests include language models, computer vision and 3D reconstruction. I enjoy building a working version of an idea, trying it out, and working through what needs to improve.</p>
+          <p>I’m interested in software engineering, AI/ML engineering and research opportunities. I’d like to contribute to useful projects, learn from the people around me, and keep developing as an engineer.</p>
+          <p class="about-hobbies"><span class="mono">OUTSIDE WORK & STUDY</span>I enjoy reading, films and swimming.</p>
+          <a class="about-contact-link" href="#contact">Say hello <svg class="inline-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="education-section container" id="education" aria-labelledby="education-heading">
+      <div class="section-heading"><div><p class="eyebrow">04 / EDUCATION</p><h2 id="education-heading">Education.</h2></div><a class="text-link education-resume" data-resume-link href="./CV.pdf" download="Razin-Rahat-Resume.pdf" type="application/pdf">Download résumé <span aria-hidden="true"><svg class="inline-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M12 4v16m-6-6 6 6 6-6"/></svg></span></a></div>
+      <div class="education-grid">
+        <article class="education-card education-current" aria-labelledby="masters-heading"><div class="education-meta"><span class="badge">CURRENT STUDY</span></div><p class="education-institution">Macquarie University</p><h3 id="masters-heading">Master of Information Technology</h3><p class="education-specialisation">Artificial Intelligence specialisation</p><p class="education-detail">July 2025 – June 2027 (expected)<br>WAM: 83.25/100 · Advanced Machine Learning, AI for Text and Vision, Data Science.</p></article>
+        <article class="education-card" aria-labelledby="bachelors-heading"><div class="education-meta"><span class="badge">COMPLETED DEGREE</span></div><p class="education-institution">BRAC University</p><h3 id="bachelors-heading">Bachelor of Science in Computer Science and Engineering</h3><p class="education-detail">Completed May 2024.<br>Vice-Chancellor’s List: Spring 2020 and Spring 2021.<br>Dean’s List: Summer 2020.</p></article>
+      </div>
+    </section>
+
+    <section class="experience-section container" id="experience" aria-labelledby="experience-heading"><div class="section-heading"><div><p class="eyebrow">05 / ENGINEERING EXPERIENCE</p><h2 id="experience-heading">Engineering experience.</h2></div></div><div class="experience-grid"><article class="experience-card"><p class="mono">APRIL – JULY 2024</p><h3>Software Engineer Intern</h3><p class="experience-company">Dcastalia Ltd.</p><p>Built Node.js/Express APIs backed by MySQL and reusable Next.js components. Integrated Google Calendar into a meeting-management platform for scheduling, participant management, notifications and task tracking.</p></article><article class="experience-card"><p class="mono">NOVEMBER 2021 – FEBRUARY 2022</p><h3>Software &amp; Design Team Member</h3><p class="experience-company">BRACU DUBURI · Autonomous Underwater Vehicle</p><p>Built a Python GUI for vehicle connections, sensor monitoring and command transmission, and created 3D component models with a multidisciplinary robotics team.</p><a class="text-link" href="https://github.com/RazinRahat/Autonomous-Vehicle-GUI" target="_blank" rel="noopener noreferrer">View GUI repository <svg class="inline-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></a></article></div></section>
+
+    <section class="contact-section container" id="contact"><p class="eyebrow">06 / WHAT’S NEXT</p><div class="contact-layout"><h2>Get in touch.</h2><div><p>Software engineering · AI/ML engineering<br>Internships · research opportunities</p><a class="button primary" href="mailto:rrahat1999@gmail.com">Get in touch <span aria-hidden="true"><svg class="inline-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></span></a><div class="professional-links"><a href="https://www.linkedin.com/in/razin-rayan-rahat/" target="_blank" rel="noopener noreferrer">LinkedIn <svg class="inline-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></a><a href="https://github.com/RazinRahat" target="_blank" rel="noopener noreferrer">GitHub <svg class="inline-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></a><a href="https://orcid.org/0009-0006-7419-759X" target="_blank" rel="noopener noreferrer">ORCID <svg class="inline-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></a></div><a class="email-link" href="mailto:rrahat1999@gmail.com">rrahat1999@gmail.com</a><a class="text-link contact-resume" data-resume-link href="./CV.pdf" download="Razin-Rahat-Resume.pdf" type="application/pdf">Download résumé · PDF <span aria-hidden="true"><svg class="inline-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M12 4v16m-6-6 6 6 6-6"/></svg></span></a></div></div></section>
+  </main>
+  <footer class="site-footer container"><span>© 2026 Razin Rayan Rahat</span><span class="footer-note">SOFTWARE · MACHINE LEARNING · RESEARCH</span><a href="https://github.com/RazinRahat" target="_blank" rel="noopener noreferrer">GitHub <svg class="inline-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M6 18 18 6M6 6h12v12"/></svg></a></footer>
+  <dialog id="image-dialog" aria-labelledby="dialog-title"><div class="dialog-heading"><h2 id="dialog-title">Recorded experiment figure</h2><button id="close-dialog" class="icon-button" aria-label="Close figure">×</button></div><img id="dialog-image" alt=""><p id="dialog-caption"></p></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <noscript><div class="noscript">The interactive case studies need JavaScript. Read the implementation at <a href="https://github.com/RazinRahat/local-rag-research-assistant">the RAG repository</a> or the <a href="https://doi.org/10.1109/ICCIT64611.2024.11022566">SSI publication</a>.</div></noscript>
+</body>
+</html>
